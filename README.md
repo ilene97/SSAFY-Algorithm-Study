@@ -1,4 +1,5 @@
 # SSAFY-Algorithm-Study
+알고리즘 대마왕 스터디
 
 ## Week1
 - 뱀 : https://www.acmicpc.net/problem/3190
