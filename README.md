@@ -1,5 +1,6 @@
 # SSAFY-Algorithm-Study
 알고리즘 대마왕 스터디
+
 2021.08.09 ~
 
 ## Week1
