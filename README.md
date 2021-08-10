@@ -1,5 +1,5 @@
 # SSAFY-Algorithm-Study
------------------------
+
 ## Week1
 - 뱀 : https://www.acmicpc.net/problem/3190
 - 동전1 : https://www.acmicpc.net/problem/2293
