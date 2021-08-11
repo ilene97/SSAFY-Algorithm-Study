@@ -17,7 +17,6 @@ public class NthBigNum {
                     table.poll();
             }
         }
-
         System.out.println(table.poll());
 
     }
