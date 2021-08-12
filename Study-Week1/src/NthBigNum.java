@@ -8,6 +8,7 @@ public class NthBigNum {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int N = Integer.parseInt(br.readLine());
         String[] temp;
+
         PriorityQueue<Integer> table = new PriorityQueue<>();
         for(int i = 0; i < N; i++){
             temp = br.readLine().split(" ");
@@ -18,6 +19,5 @@ public class NthBigNum {
             }
         }
         System.out.println(table.poll());
-
     }
 }
