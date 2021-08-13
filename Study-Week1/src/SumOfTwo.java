@@ -23,7 +23,6 @@ public class SumOfTwo {
                     break;  // 브레이크 안넣어주면 시간 초과
                 }
         }
-
         System.out.println(pairs);  // output
     }
 }

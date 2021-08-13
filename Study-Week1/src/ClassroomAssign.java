@@ -25,7 +25,7 @@ public class ClassroomAssign {
             room++;
             // 큐1이 비지 않는 동안
             while (!lectures.isEmpty()) {
-                now = lectures.poll(); // 큐1에서 폴하면서
+                now = lectures.poll();  // 큐1에서 폴하면서
                 // 시작시간이 현재 종료시간보다 같거나 크면 종료시간 다시 세팅
                 if (now.start >= end) end = now.end;
                 else tempQue.offer(now); // 아니면 큐2에 넣기
