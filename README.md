@@ -11,4 +11,9 @@
 - 강의실 배정 : (https://www.acmicpc.net/problem/11000)
 - 두 수의 합 : (https://www.acmicpc.net/problem/3273)
 
-## 
+## Week2
+- 토마토 : BFS (https://www.acmicpc.net/problem/7576)
+- 섬의 개수 : BFS, DFS (https://www.acmicpc.net/problem/4963)
+- 컨베이어 벨트 위의 로봇 : 구현 (https://www.acmicpc.net/problem/20055)
+- 맥주 마시면서 걸어가기 : BFS (https://www.acmicpc.net/problem/9205)
+- 로봇 청소기 : 구현 (https://www.acmicpc.net/problem/14503)
