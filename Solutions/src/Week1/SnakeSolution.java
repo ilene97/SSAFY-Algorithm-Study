@@ -1,3 +1,5 @@
+package Week1;
+
 import jdk.swing.interop.DropTargetContextWrapper;
 
 import java.io.BufferedReader;
