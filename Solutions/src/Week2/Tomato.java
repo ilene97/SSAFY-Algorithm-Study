@@ -39,7 +39,6 @@ public class Tomato {
         Pair cur = null;
         while(!que.isEmpty()){  // bfs
             cur = que.poll();
-
             for(int i = 0; i < 4; i++) {  // 4방향 탐색
                 int curX = cur.x + dir[i][0];
                 int curY = cur.y + dir[i][1];
@@ -52,17 +51,16 @@ public class Tomato {
             }
         }
 
-        /*  // 전체 box 순회해서 확인
+        /*  // 전체 box 순회해서 확인 816ms
         for(int i = 0; i < N; i++)   // 안익은 토마토(0) 있으면 -1 출력
             for(int j = 0 ; j < M; j++)
                 if(box[i][j] == 0) {
                     System.out.println(-1);
                     return;
                 }
-
          */
 
-        // 토마토 개수로 확인 이게 더 오래걸림...
+        // 토마토 개수로 확인 이게 더 오래걸림... 860ms
         if (totalTomato == ripeTomato)  // 모든 토마토가 익었으면 day 출력
             System.out.println(cur.day);  // 가장 마지막 토마토가 가장 마지막 날에 익은 토마토
         else // 덜익은 토마토가 있으면 -1 출력
