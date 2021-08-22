@@ -8,8 +8,7 @@ public class ConveyorBelt {
     static int N, K;
     static int[] conveyor;
     static boolean[] robot;
-// 1 2 3 4 5 6 7 8 9 10
-// 10 9 8 7 6
+
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         String[] temp = br.readLine().split(" ");
@@ -59,7 +58,7 @@ public class ConveyorBelt {
             }
 
             //4. 내구도 0인 칸의 개수가 K개 이상이라면 과정 종료.
-            if(k == K) break;
+            if(k >= K) break;
         }
         System.out.println(step);
     }
