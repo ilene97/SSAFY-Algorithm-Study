@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class SecretEmail {
     static int N;
     static int R, C;
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String input = sc.next();
@@ -36,4 +37,3 @@ public class SecretEmail {
         }
     }
 }
-
