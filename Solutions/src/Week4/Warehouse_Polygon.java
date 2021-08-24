@@ -59,7 +59,6 @@ public class Warehouse_Polygon {
             L = l;
             H = h;
         }
-
         @Override
         public int compareTo(Column o) {
             return this.L - o.L;
