@@ -36,7 +36,6 @@ public class Guard {
             stores.add(new int[] {dir, loc});
         }
 
-
         int sum = 0;
         for(int i = 0; i < N; i++){
             int[] store = stores.get(i);
