@@ -7,12 +7,14 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class DiceBuild {
+
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         Map<Integer, Integer> opposite = new HashMap<>();
         opposite.put(0, 5); opposite.put(5, 0);
         opposite.put(1, 3); opposite.put(3, 1);
         opposite.put(2, 4); opposite.put(4, 2);
+
         int N = Integer.parseInt(br.readLine());
         ArrayList<int[]> dices = new ArrayList<>();
         String[] temp;
@@ -38,10 +40,10 @@ public class DiceBuild {
             }
             sum += max;
 
-            for(int d = 1; d < N; d++){ // 두번째 ~ N 번째 주사위 까지
+            for(int d = 1; d < N; d++){     // 두번째 ~ N 번째 주사위 까지
                 int[] dice = dices.get(d);
                 int curBottomIdx = -1;
-                for(int k = 0; k < 6; k++){ // 이전 주사위의 윗면과 같은 숫자인 인덱스 찾기
+                for(int k = 0; k < 6; k++){     // 이전 주사위의 윗면과 같은 숫자인 인덱스 찾기
                     if(preTopNum == dice[k]) curBottomIdx = k;
                 }
 
